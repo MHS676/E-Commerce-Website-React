@@ -23,7 +23,7 @@ function App() {
             </Routes>
             <Newsletter />
             <Footer />
-        ß</AppContext>
+        </AppContext>
         </BrowserRouter>
     );
 }
