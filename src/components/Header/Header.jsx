@@ -14,11 +14,17 @@ const Header = () => {
     return (
     <Header className= "main-header">
         <div className="header-content">
-            <ui>
+            <ul>
                 <li>Home</li>
                 <li>About</li>
                 <li>Categories</li>
-            </ui>
+            </ul>
+            <div className="center">HT</div>
+            <div className="right">
+                <TbSearch/>
+                <AiOutlineHeart/>
+                <span className="cart-icon"><CgShoppingCart/></span>
+            </div>
         </div>
     </Header>
     );
